@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Memastikan berhasil Login sebagai Instansi Kesehatan</description>
+   <name>Login_02</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e7e73331-e37c-4b89-81fe-41a2bee8a26f</testCaseGuid>
+</TestCaseEntity>
