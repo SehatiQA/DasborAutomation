@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Memastikan berhasil hapus target PWS yang telah disimpan</description>
+   <name>PWSKIA_ADMIN_04</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b9cfb4f7-8e1d-420e-a636-399af1045368</testCaseGuid>
+</TestCaseEntity>

@@ -17,6 +17,12 @@
       <testCaseId>Test Cases/PWSKIA_ADMIN_01</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>9b9b88ef-9eb3-47ca-af63-29f54f6c7d9e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/PWSKIA_ADMIN_04</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>0a833f04-6d6a-42a7-b37c-60b0e13323f0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
