@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Memastikan berhasil input target PWSKIA pada faskes</description>
+   <name>PWSKIA_ADMIN_01</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ce7f9374-d5bc-4ae7-94a4-e63b8123ede4</testCaseGuid>
+</TestCaseEntity>
