@@ -56,7 +56,13 @@ WebUI.click(findTestObject('Object Repository/Admin/Profile Faskes/button_Buat-T
 
 WebUI.delay(2)
 
-String tahun = 2019
+String tahun = 20
+String charsets = ('0'..'1').join()
+Integer lengths = 1
+String puluhan = RandomStringUtils.random(lengths, charsets.toCharArray())
+String scharsets = ('0'..'9').join()
+Integer slengths = 1
+String satuan = RandomStringUtils.random(lengths, charsets.toCharArray())
 
 String charset = ('1'..'9').join()
 Integer length = 2
@@ -68,7 +74,7 @@ String sasaranibuhamil = RandomStringUtils.random(length, charset.toCharArray())
 String sasaranibubersalin = RandomStringUtils.random(length, charset.toCharArray())
 String sasaranibunifas = RandomStringUtils.random(length, charset.toCharArray())
 
-WebUI.setText(findTestObject('Object Repository/Admin/Profile Faskes/field_targetpws-tahun'), tahun)
+WebUI.setText(findTestObject('Object Repository/Admin/Profile Faskes/field_targetpws-tahun'), tahun+puluhan+satuan)
 
 WebUI.delay(1)
 
@@ -110,7 +116,7 @@ WebUI.click(findTestObject('Object Repository/Admin/Profile Faskes/button_Kembal
 
 WebUI.scrollToElement(findTestObject('Object Repository/Admin/copyright_zetta'), 0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Admin/Profile Faskes/Target PWSKIA - List/value_tahun'), tahun)
+WebUI.verifyElementText(findTestObject('Object Repository/Admin/Profile Faskes/Target PWSKIA - List/value_tahun'), tahun+puluhan+satuan)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Admin/Profile Faskes/Target PWSKIA - List/value_k1'), k1+'.0%')
 
