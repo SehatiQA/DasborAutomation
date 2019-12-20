@@ -37,6 +37,6 @@ WebUI.click(findTestObject('Object Repository/Non Admin/sidenav_daftarBidan'))
 
 WebUI.delay(2)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Non Admin/Dinkes/dropdown_semuafaskes'), 0) == true
+WebUI.verifyElementPresent(findTestObject('Object Repository/Non Admin/Dinkes/dropdown_semuafaskes'), 0)
 
 WebUI.closeBrowser()

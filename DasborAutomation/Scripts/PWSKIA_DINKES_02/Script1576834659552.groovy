@@ -19,11 +19,11 @@ WebUI.maximizeWindow()
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Non Admin/button_faskes'))
+WebUI.click(findTestObject('Non Admin/button_dinkes'))
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Login screen/field_email'), 'faskes.beji@mailinator.com')
+WebUI.setText(findTestObject('Login screen/field_email'), 'dinkesmoontilango@mailinator.com')
 
 WebUI.delay(2)
 
@@ -33,10 +33,24 @@ WebUI.click(findTestObject('Object Repository/Login screen/button_Masuk'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Non Admin/sidenav_daftarBidan'))
+WebUI.click(findTestObject('Object Repository/Non Admin/sidenav_pwskia'))
 
 WebUI.delay(2)
 
-WebUI.verifyElementNotPresent(findTestObject('Object Repository/Non Admin/Dinkes/dropdown_semuafaskes'), 0)
+WebUI.verifyElementPresent(findTestObject('Non Admin/PWSKIA/field_PWSKIA_pilihbulan'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Non Admin/PWSKIA/field_PWSKIA_pilihkunjungan'), 0)
+
+WebUI.click(findTestObject('Non Admin/PWSKIA/field_PWSKIA_pilihkunjungan'))
+
+WebUI.delay(2)
+
+WebUI.verifyOptionPresentByValue(findTestObject('Non Admin/PWSKIA/field_PWSKIA_pilihkunjungan'), 'k1', false, 0)
+
+WebUI.verifyOptionPresentByValue(findTestObject('Non Admin/PWSKIA/field_PWSKIA_pilihkunjungan'), 'k4', false, 0)
+
+WebUI.verifyOptionPresentByValue(findTestObject('Non Admin/PWSKIA/field_PWSKIA_pilihkunjungan'), 'pn', false, 0)
+
+WebUI.verifyOptionPresentByValue(findTestObject('Non Admin/PWSKIA/field_PWSKIA_pilihkunjungan'), 'kf', false, 0)
 
 WebUI.closeBrowser()
