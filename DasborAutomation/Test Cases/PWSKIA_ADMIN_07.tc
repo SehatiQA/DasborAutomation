@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Memastikan semua field Pada form target PWS adalah mandatori dan terdapat validasi.</description>
+   <name>PWSKIA_ADMIN_07</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c4e59b2a-1672-4d08-a7b8-2fcb1bc90405</testCaseGuid>
+</TestCaseEntity>

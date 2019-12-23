@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>memastikan tidak dapat menambahkan target untuk tahun yang sama yang telah ada pada target PWS</description>
+   <name>PWSKIA_ADMIN_06</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2e8732f2-4128-40e1-adb4-cab96bb908df</testCaseGuid>
+</TestCaseEntity>
