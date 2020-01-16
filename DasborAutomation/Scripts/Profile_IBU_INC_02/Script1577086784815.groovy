@@ -33,6 +33,10 @@ WebUI.click(findTestObject('Object Repository/Login screen/button_Masuk'))
 
 WebUI.delay(5)
 
+WebUI.click(findTestObject('Object Repository/Admin/button_Saya-setuju-cookie-permit'))
+
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Object Repository/Non Admin/sidenav_daftarIbu'))
 
 WebUI.delay(2)
@@ -42,6 +46,26 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Non Admin/Daftar Ib
 WebUI.verifyElementPresent(findTestObject('Object Repository/Non Admin/Daftar Ibu/tab_Ibu-Bersalin'), 0)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Non Admin/Daftar Ibu/tab_Ibu-Nifas'), 0)
+
+WebUI.click(findTestObject('Object Repository/Non Admin/Daftar Ibu/tab_Ibu-Bersalin'))
+
+WebUI.click(findTestObject('Object Repository/Non Admin/Daftar Ibu/ibu_no1'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Object Repository/Non Admin/Daftar Ibu/tab_INC'))
+
+WebUI.scrollToElement(findTestObject('Object Repository/Non Admin/Daftar Ibu/tab_INC'), 0)
+
+WebUI.delay(1)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Non Admin/Daftar Ibu/INC/tab_Catatan-Ibu-Datang'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Non Admin/Daftar Ibu/INC/tab_Observasi'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Non Admin/Daftar Ibu/INC/tab_Catatan-Persalinan'), 0)
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Logout_section/dropdown'))
 
@@ -72,5 +96,25 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Non Admin/Daftar Ib
 WebUI.verifyElementPresent(findTestObject('Object Repository/Non Admin/Daftar Ibu/tab_Ibu-Bersalin'), 0)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Non Admin/Daftar Ibu/tab_Ibu-Nifas'), 0)
+
+WebUI.click(findTestObject('Object Repository/Non Admin/Daftar Ibu/tab_Ibu-Bersalin'))
+
+WebUI.click(findTestObject('Object Repository/Non Admin/Daftar Ibu/ibu_no1'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Object Repository/Non Admin/Daftar Ibu/tab_INC'))
+
+WebUI.scrollToElement(findTestObject('Object Repository/Non Admin/Daftar Ibu/tab_INC'), 0)
+
+WebUI.delay(1)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Non Admin/Daftar Ibu/INC/tab_Catatan-Ibu-Datang'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Non Admin/Daftar Ibu/INC/tab_Observasi'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Non Admin/Daftar Ibu/INC/tab_Catatan-Persalinan'), 0)
+
+WebUI.delay(3)
 
 WebUI.closeBrowser()
