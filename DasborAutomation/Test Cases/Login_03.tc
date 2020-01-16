@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Memastikan berhasil Login sebagai Instansi Kesehatan</description>
+   <description>Memastikan berhasil Login sebagai Fasilitas Kesehatan</description>
    <name>Login_03</name>
    <tag></tag>
    <comment></comment>
